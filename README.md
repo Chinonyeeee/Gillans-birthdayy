@@ -1,1 +1,24 @@
-# Gillans-birthdayy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy 19th, Gillian!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Happy 19th Birthday, Gillian! 🎉</h1>
+    <p class="subtext">You're officially signed to Anfield.</p>
+
+    <div class="gift-section">
+      <button id="gift-button" onclick="revealGift()" aria-expanded="false">Click to Open Your Gift 🎁</button>
+      <div id="gift-content">
+        <p>Here's to 19 beautiful wishes for your future. You'll Never Walk Alone ❤️</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
