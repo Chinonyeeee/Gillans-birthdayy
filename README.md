@@ -11,8 +11,38 @@
       font-family: 'Montserrat', sans-serif;
       background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
       color: #f5f5f5;
+      min-height: 100vh;
       overflow-x: hidden;
     }
+
+    /* Gift section styles */
+    .gift-section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    #gift-button {
+      background: #ff6b6b;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-bottom: 30px;
+    }
+    #gift-button:hover {
+      background: #ff5252;
+      transform: scale(1.05);
+    }
+    #gift-content {
+      display: none;
+    }
+    #gift-content.show {
+      display: block;
+    }
+
+    /* Birthday card styles */
     .center {
       text-align: center;
       padding: 100px 20px 40px;
@@ -58,32 +88,6 @@
     audio {
       display: block;
       margin: 20px auto;
-    }
-    /* Gift section styles */
-    .gift-section {
-      text-align: center;
-      margin-top: 50px;
-    }
-    #gift-button {
-      background: #ff6b6b;
-      color: white;
-      border: none;
-      padding: 15px 30px;
-      font-size: 1.2rem;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-    #gift-button:hover {
-      background: #ff5252;
-      transform: scale(1.05);
-    }
-    #gift-content {
-      display: none;
-      padding: 20px;
-    }
-    #gift-content.show {
-      display: block;
     }
   </style>
 </head>
